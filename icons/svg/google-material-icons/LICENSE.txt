@@ -1,0 +1,3 @@
+Link: https://icon-sets.iconify.design/ic/
+LICENSE: Apache 2.0 (No attribution required, commercial use is allowed)
+LICENSE URL: https://github.com/material-icons/material-icons/blob/master/LICENSE
