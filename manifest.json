@@ -1,21 +1,23 @@
 {
-  "name": "Chromatic",
-  "version": "1.0",
-  "description": "Chromatic",
+  "name": "Chromatic: Extensions Analytics",
+  "version": "0.1.0.0",
+  "description": "Save details like ratings, number of users, number of reviews of Chrome Extensions for analysis.",
   "manifest_version": 3,
   "action": {
-    "default_title": "Default Title",
+    "default_title": "Chromatic: Extensions Analytics",
     "default_icon": {
-      "32": "icons/32.png",
-      "72": "icons/72.png",
-      "128": "icons/128.png",
-      "512": "icons/512.png"
+      "16": "icons/icon_16.png",
+      "32": "icons/icon_32.png",
+      "48": "icons/icon_48.png",
+      "64": "icons/icon_64.png",
+      "128": "icons/icon_128.png"
     }
   },
   "icons": {
-    "32": "icons/32.png",
-    "72": "icons/72.png",
-    "128": "icons/128.png",
-    "512": "icons/512.png"
+    "16": "icons/icon_16.png",
+    "32": "icons/icon_32.png",
+    "48": "icons/icon_48.png",
+    "64": "icons/icon_64.png",
+    "128": "icons/icon_128.png"
   }
 }
