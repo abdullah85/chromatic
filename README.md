@@ -4,7 +4,7 @@ Chromatic is a user driven analytics system that lives within the Browser as a G
 
 # Roadmap
 
-The tentative Roadmap is below:
+Check [ROADMAP.md](ROADMAP.md) for more details and the overview is as below:
 
 * Fetch data for number of ratings, number of users in categories listing.
 * Fetch data for number of ratings, number of users in search results.

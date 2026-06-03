@@ -19,5 +19,15 @@
     "48": "icons/icon_48.png",
     "64": "icons/icon_64.png",
     "128": "icons/icon_128.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/webstore.js"
+      ],
+      "matches": [
+	"https://chromewebstore.google.com/*"
+      ]
+    }
+  ]
 }
