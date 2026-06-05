@@ -20,14 +20,12 @@
     "64": "icons/icon_64.png",
     "128": "icons/icon_128.png"
   },
-  "content_scripts": [
-    {
-      "js": [
-        "scripts/webstore.js"
-      ],
-      "matches": [
-	"https://chromewebstore.google.com/*"
-      ]
-    }
-  ]
+  "side_panel": {
+    "default_path": "panel/panel.html"
+  },
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
+  "permissions": ["sidePanel", "tabs", "storage"],
+  "host_permissions": ["https://chromewebstore.google.com/*"]
 }
