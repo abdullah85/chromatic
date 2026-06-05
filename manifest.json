@@ -26,6 +26,6 @@
   "background": {
     "service_worker": "scripts/background.js"
   },
-  "permissions": ["sidePanel", "tabs", "storage"],
+  "permissions": ["sidePanel", "tabs", "storage", "scripting"],
   "host_permissions": ["https://chromewebstore.google.com/*"]
 }

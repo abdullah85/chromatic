@@ -2,6 +2,8 @@
 
 A summary of the features planned for.
 
+Note: We cannot inject content scripts into the Google Chrome WebStore.
+
 ## Fetch data in Categories Listing
 
 The idea was to integrate a button like ▶️  into the results while viewing categories.
