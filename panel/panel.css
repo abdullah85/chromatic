@@ -40,7 +40,6 @@ header {
   align-items: center;
   justify-content: space-between;
   flex-shrink: 0;
-  gap: 8px;
 }
 
 .logo {
@@ -211,8 +210,6 @@ header {
   gap: 10px;
   cursor: pointer;
   transition: border-color 0.15s, background 0.15s;
-  color: inherit;
-  text-decoration: none;
 }
 
 .ext-item:hover {
@@ -221,14 +218,6 @@ header {
 }
 
 .ext-item img {
-  width: 32px;
-  height: 32px;
-  border-radius: 6px;
-  flex-shrink: 0;
-  background: var(--surface2);
-}
-
-.list-icon {
   width: 32px;
   height: 32px;
   border-radius: 6px;
@@ -266,82 +255,4 @@ header {
   padding: 16px;
   text-align: center;
   line-height: 1.6;
-}
-
-.details-panel {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
-}
-
-.detail-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 9px 12px;
-  border-bottom: 1px solid var(--border);
-}
-
-.detail-row:last-child {
-  border-bottom: 0;
-}
-
-.detail-row span {
-  color: var(--muted);
-  font-size: 11px;
-}
-
-.detail-row strong {
-  color: var(--text);
-  font-size: 11px;
-  font-weight: 500;
-  text-align: right;
-  overflow-wrap: anywhere;
-}
-
-.description {
-  color: var(--muted);
-  line-height: 1.6;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 12px;
-}
-
-.action-row {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 12px;
-}
-
-button {
-  border: 1px solid var(--border);
-  border-radius: 7px;
-  color: var(--text);
-  cursor: pointer;
-  font: inherit;
-  font-weight: 600;
-  min-height: 34px;
-  padding: 0 12px;
-}
-
-.primary-action {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #fff;
-}
-
-.secondary-action {
-  background: var(--surface);
-}
-
-.status-pill {
-  background: var(--surface2);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  color: var(--green);
-  font-family: 'DM Mono', monospace;
-  font-size: 10px;
-  padding: 3px 8px;
 }

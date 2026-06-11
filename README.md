@@ -16,8 +16,6 @@ Check [ROADMAP.md](ROADMAP.md) for more details and the overview is as below:
 * Feature to export the stored extensions, mainly in CSV format.
 * Allow user to initiate automatic recording of extensions on button click.
 
-Unfortunately Google Chrome WebStore does not allow injecting content scripts and we need to look for alternatives.
-
 # Summary
 
 Chromatic allows the user to review various Google Chrome extensions via the Google Web Store while the required data points are stored with minimal user intervention. The required extension analytics can be obtained from the previous actions. Essentially, retain all the benefits of collecting the data points for Google Extensions while reducing the effort.
